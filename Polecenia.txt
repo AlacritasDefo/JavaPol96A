@@ -8,3 +8,6 @@ git remote add
 git remote (dopowiedzieæ sporo)
 git diff
 git reset
+git push
+
+i inne polecenia
