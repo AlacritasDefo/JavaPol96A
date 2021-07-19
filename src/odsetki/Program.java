@@ -1,4 +1,4 @@
-package pakiet;
+package odsetki;
 
 import java.util.Scanner;
 
