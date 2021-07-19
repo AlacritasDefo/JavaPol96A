@@ -6,3 +6,5 @@ git config (dopowiedzieæ o aliasach)
 git commit
 git remote add 
 git remote (dopowiedzieæ sporo)
+git diff
+git reset
