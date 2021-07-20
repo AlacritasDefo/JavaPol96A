@@ -18,7 +18,8 @@ public class Program {
                 "Przemysław Otoliński",
                 "Radosław Kowalik",
                 "Sylwia Motylińska",
-                "Tomasz Piłat"
+                "Tomasz Piłat",
+                "Damian Szczepaniak"
         };
         int rozmiar = osoby.length;
         int[] wylosowane = new int[rozmiar];
