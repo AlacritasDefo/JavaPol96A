@@ -4,9 +4,9 @@ git status
 git log (dopowiedzieæ sporo)
 git config (dopowiedzieæ o aliasach)
 git commit
-git remote add 
+git remote add origin URL
 git remote (dopowiedzieæ sporo)
-git diff
+git diff hash1 hash2
 git reset
 git push
 

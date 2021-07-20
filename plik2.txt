@@ -1,7 +1,8 @@
 Zadanie 1:
-	Wyświetlenie podizelników (całkowitych) liczby X
+	Wyświetlenie podzielników (całkowitych) liczby X
 	Suma podzielników liczby X
 	Czy liczba jest doskonała (suma podzielników równa liczbie, np. 6 = 1 + 2 + 3)
+	Sprawdzić która z liczb od n1 do n2 są doskonałe
 
 Zadanie 2:
 	Pierwiastkowanie z użyciem *,/,+
