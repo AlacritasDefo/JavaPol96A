@@ -1,0 +1,22 @@
+Zadanie 1:
+	Wyświetlenie podizelników (całkowitych) liczby X
+	Suma podzielników liczby X
+	Czy liczba jest doskonała (suma podzielników równa liczbie, np. 6 = 1 + 2 + 3)
+
+Zadanie 2:
+	Pierwiastkowanie z użyciem *,/,+
+
+Zadanie 3:
+	Znając dzisiejsze dane (d, m, r) i dzień tygodnia trzeba dowiedzieć się jaki dzień będzie za n dni
+
+Zadanie 4:
+	Mamy 3 opakowania z lekami. L1 = 10 pastylek, L2 = 16 pastylek, L3 = 21 pastylek. Kiedy skończą się wszystkie 3 opakowania
+
+Zadanie 5:
+	Suma cyfr dla liczby X (np. X = 2021, suma cyfr = 2 + 0 + 2 + 1 = 5)
+	Wypisz liczby od 1 do 1000, dla których suma cyfr wynosi N (np. N = 9)
+
+Zadanie 6
+	UE w 2021 roku wytworzy PKB = 16 bln EUR. Wytworzy także CO2 równe PKB * 0,01 kg. Ponoć w 2040 roku emisja CO2 w UE ma być mniejsza o 55%. UE zamierza również rosnąć gospodarczo w kategorii PKB o 3% rocznie. 
+	Pytanie 1: ile wyniesie PKB UE w 2040 roku w bilionach EUR. I ile to będzie emisji CO2 bez redukcji emisji. 
+	Pytanie 2: ile UE będzie emitowało CO2 z redukcją emisji o 55%.
