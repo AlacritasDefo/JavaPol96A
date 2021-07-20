@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="JavaPol96A:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="25197052-2fcf-49dd-9f52-bfbb1cbd404e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Polecenia.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pliki/Polecenia.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plik1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pliki/plik1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plik2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pliki/plik2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ulubionedania.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pliki/ulubionedania.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/zadanie.txt" beforeDir="false" afterPath="$PROJECT_DIR$/pliki/zadanie.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,6 +16,12 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/JavaPol96a$.ic" NAME=" Coverage Results" MODIFIED="1626817342249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="196" />
   </component>
   <component name="FileEditorManager">
     <leaf>
@@ -30,7 +38,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/losowanie/Program.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="88">
@@ -40,37 +48,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/opakowania.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="594">
-              <caret line="42" column="42" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pliki/Polecenia.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pi/Program.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="172">
               <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/liczbydoskonale/doskonale.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -131,6 +112,45 @@
             <path>
               <item name="JavaPol96a" type="b2602c69:ProjectViewProjectNode" />
               <item name="JavaPol96a" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaPol96a" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaPol96a" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaPol96a" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaPol96a" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaPol96A_jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaPol96a" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaPol96a" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaPol96a" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaPol96a" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaPol96A" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaPol96a" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaPol96a" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="production" type="462c0819:PsiDirectoryNode" />
+              <item name="JavaPol96A" type="462c0819:PsiDirectoryNode" />
+              <item name="losowanie" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JavaPol96a" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JavaPol96a" type="462c0819:PsiDirectoryNode" />
               <item name="pliki" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -145,7 +165,17 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1626811683367" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1626818572815" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaFXPaint" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\48605\workspace\JavaPol96a\pliki" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -159,7 +189,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.opakowania">
+  <component name="RunManager" selected="JAR Application.JavaPol96A.jar">
     <configuration name="doskonale" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="liczbydoskonale.doskonale" />
       <module name="JavaPol96A" />
@@ -180,8 +210,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JavaPol96A.jar" type="JarApplication" factoryName="JAR Application" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/JavaPol96A_jar/JavaPol96A.jar" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JAR Application.JavaPol96A.jar" />
         <item itemvalue="Application.opakowania" />
         <item itemvalue="Application.doskonale" />
       </list>
@@ -209,7 +244,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24944812" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24944812" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
@@ -225,6 +260,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette" />
       <window_info anchor="right" id="Codota" />
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.32965416" />
       <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="right" id="Maven" />
       <window_info anchor="right" id="Capture Analysis" />
@@ -246,17 +282,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/losowanie/Program.java">
+    <entry file="file://$PROJECT_DIR$/pliki/Polecenia.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pi/Program.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="176">
+          <caret line="8" column="18" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="8" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -267,6 +296,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/pi/Program.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/opakowania.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
@@ -274,12 +310,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pliki/Polecenia.txt">
+    <entry file="file://$PROJECT_DIR$/src/losowanie/Program.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="88">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>JavaPol96A:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>JavaPol96A</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
