@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="845aa870-5dbf-45cb-b34e-3ad908311c38" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/losowanie/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pi/Program.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Polecenia.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Polecenia.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pakiet/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/odsetki/Program.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/losowanie/Program.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/losowanie/Program.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,8 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/losowanie/Program.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+            <state relative-caret-position="278">
+              <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,8 +69,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/pakiet/Program.java" />
         <option value="$PROJECT_DIR$/src/pi/Program.java" />
-        <option value="$PROJECT_DIR$/src/losowanie/Program.java" />
         <option value="$PROJECT_DIR$/src/odsetki/Program.java" />
+        <option value="$PROJECT_DIR$/src/losowanie/Program.java" />
       </list>
     </option>
   </component>
@@ -202,10 +197,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="611" y="65" width="1210" height="979" extended-state="0" />
+    <frame x="1002" y="71" width="1210" height="979" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15043478" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49919224" visible="true" weight="0.15043478" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -259,8 +254,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/losowanie/Program.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+        <state relative-caret-position="278">
+          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
