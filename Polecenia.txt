@@ -1,13 +1,23 @@
 git init
 git add .
 git status
-git log (dopowiedzieæ sporo)
+git log
+git log --oneline --graph --date=relative --pretty=format:"%h %cr %cn %s"
 git config (dopowiedzieæ o aliasach)
 git commit
+git commit --amend
 git remote add origin URL
 git remote (dopowiedzieæ sporo)
 git diff hash1 hash2
-git reset
+git reset --hard
 git push
+git branch
+git branch nazwa-ga³êzi
+git branch -d nazwa
+git checkout hash
+git checkout nazwa-ga³êzi
+git merge
 
-i inne polecenia
+i inne polecenia:
+git tag
+aliasy
