@@ -22,7 +22,7 @@ public class zadanie7 {
         }
         int wartosc = tab1[0];
         int dlugosc = 1;
-        int max = 1; // 1 2 2 2 0
+        int max = 1;
         int maxL = wartosc;
         System.out.println();
         for (int i = 1; i < n; i++) {
@@ -41,7 +41,7 @@ public class zadanie7 {
             max = dlugosc;
             maxL = wartosc;
         }
-        System.out.println("Max równa się: " + max);
+        System.out.println("Max ciąg równa się: " + max);
         System.out.println("Ciąg liczby: " + maxL);
     }
 }
