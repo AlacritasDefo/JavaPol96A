@@ -1,0 +1,264 @@
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"VcsDirectoryMappings\">\r\n    <mapping directory=\"$PROJECT_DIR$\" vcs=\"Git\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+--- a/.idea/vcs.xml	(revision 0ade1342691a98833444523c012e98d1b806d459)
++++ b/.idea/vcs.xml	(date 1626887797116)
+@@ -2,5 +2,6 @@
+ <project version="4">
+   <component name="VcsDirectoryMappings">
+     <mapping directory="$PROJECT_DIR$" vcs="Git" />
++    <mapping directory="$PROJECT_DIR$/JavaPol96A" vcs="Git" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: src/sumacyfr/sumaCyfr.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/sumacyfr/sumaCyfr.java b/src/sumacyfr/sumaCyfr.java
+new file mode 100644
+--- /dev/null	(date 1626889303590)
++++ b/src/sumacyfr/sumaCyfr.java	(date 1626889303590)
+@@ -0,0 +1,27 @@
++package sumacyfr;
++
++import java.util.Scanner;
++
++/*
++        Zadanie 5:
++        Suma cyfr dla liczby X (np. X = 2021, suma cyfr = 2 + 0 + 2 + 1 = 5)
++        Wypisz liczby od 1 do 1000, dla których suma cyfr wynosi N (np. N = 9)
++*/
++public class sumaCyfr {
++    public static void main(String[] args) {
++        Scanner scanner = new Scanner(System.in);
++                System.out.println("Podaj ile ma wynosić suma cyfr");
++        int liczba = 0;
++        int cyfra = 0;
++        for (int i = 1; i <= 1000; i++) {
++            int sumaCyfr = 0;
++            int x = i;
++            do {
++                cyfra = x % 10;
++                sumaCyfr += cyfra;
++                x /= 10;
++            } while (x > 0);
++
++        }
++    }
++}
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"b5432be3-067a-46ed-9646-c95115eb2cbb\" name=\"Default Changelist\" comment=\"\" />\r\n    <ignored path=\"C:\\Users\\48605\\workspace\\JavaPol96a\\.idea\\shelf/\" />\r\n    <ignored path=\"$PROJECT_DIR$/out/\" />\r\n    <option name=\"EXCLUDED_CONVERTED_TO_IGNORED\" value=\"true\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileEditorManager\">\r\n    <leaf SIDE_TABS_SIZE_LIMIT_KEY=\"300\">\r\n      <file pinned=\"false\" current-in-tab=\"false\">\r\n        <entry file=\"file://$PROJECT_DIR$/src/odsetki/Program.java\">\r\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n            <state relative-caret-position=\"110\">\r\n              <caret line=\"5\" column=\"2\" selection-start-line=\"5\" selection-start-column=\"2\" selection-end-line=\"5\" selection-end-column=\"2\" />\r\n            </state>\r\n          </provider>\r\n        </entry>\r\n      </file>\r\n      <file pinned=\"false\" current-in-tab=\"false\">\r\n        <entry file=\"file://$PROJECT_DIR$/src/pi/Program.java\">\r\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n            <state relative-caret-position=\"374\">\r\n              <caret line=\"17\" selection-start-line=\"17\" selection-end-line=\"17\" />\r\n              <folding>\r\n                <element signature=\"imports\" expanded=\"true\" />\r\n              </folding>\r\n            </state>\r\n          </provider>\r\n        </entry>\r\n      </file>\r\n      <file pinned=\"false\" current-in-tab=\"false\">\r\n        <entry file=\"file://$PROJECT_DIR$/src/losowanie/Program.java\">\r\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n            <state relative-caret-position=\"718\">\r\n              <caret line=\"34\" column=\"35\" selection-start-line=\"34\" selection-start-column=\"35\" selection-end-line=\"34\" selection-end-column=\"35\" />\r\n              <folding>\r\n                <element signature=\"imports\" expanded=\"true\" />\r\n              </folding>\r\n            </state>\r\n          </provider>\r\n        </entry>\r\n      </file>\r\n      <file pinned=\"false\" current-in-tab=\"false\">\r\n        <entry file=\"file://$PROJECT_DIR$/pliki/Zadania z Javy.txt\">\r\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n            <state relative-caret-position=\"352\">\r\n              <caret line=\"31\" column=\"33\" selection-start-line=\"31\" selection-start-column=\"33\" selection-end-line=\"31\" selection-end-column=\"33\" />\r\n            </state>\r\n          </provider>\r\n        </entry>\r\n      </file>\r\n      <file pinned=\"false\" current-in-tab=\"true\">\r\n        <entry file=\"file://$PROJECT_DIR$/src/tablica/zadanie7.java\">\r\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n            <state relative-caret-position=\"176\">\r\n              <caret line=\"20\" column=\"21\" lean-forward=\"true\" selection-end-line=\"46\" selection-end-column=\"1\" />\r\n              <folding>\r\n                <element signature=\"imports\" expanded=\"true\" />\r\n              </folding>\r\n            </state>\r\n          </provider>\r\n        </entry>\r\n      </file>\r\n      <file pinned=\"false\" current-in-tab=\"false\">\r\n        <entry file=\"file://$PROJECT_DIR$/src/cars/Car.java\">\r\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n            <state relative-caret-position=\"264\">\r\n              <caret line=\"12\" selection-start-line=\"12\" selection-end-line=\"12\" />\r\n            </state>\r\n          </provider>\r\n        </entry>\r\n      </file>\r\n      <file pinned=\"false\" current-in-tab=\"false\">\r\n        <entry file=\"file://$PROJECT_DIR$/pliki/cars.txt\">\r\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n            <state relative-caret-position=\"198\">\r\n              <caret line=\"9\" column=\"10\" selection-start-line=\"9\" selection-start-column=\"10\" selection-end-line=\"9\" selection-end-column=\"10\" />\r\n            </state>\r\n          </provider>\r\n        </entry>\r\n      </file>\r\n      <file pinned=\"false\" current-in-tab=\"false\">\r\n        <entry file=\"file://$PROJECT_DIR$/pliki/Polecenia GIT-a.txt\">\r\n          <provider selected=\"true\" editor-type-id=\"text-editor\" />\r\n        </entry>\r\n      </file>\r\n      <file pinned=\"false\" current-in-tab=\"false\">\r\n        <entry file=\"file://$PROJECT_DIR$/pliki/zadanie z GIT-a.txt\">\r\n          <provider selected=\"true\" editor-type-id=\"text-editor\" />\r\n        </entry>\r\n      </file>\r\n    </leaf>\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"IdeDocumentHistory\">\r\n    <option name=\"CHANGED_PATHS\">\r\n      <list>\r\n        <option value=\"$PROJECT_DIR$/src/cars/Car.java\" />\r\n        <option value=\"$PROJECT_DIR$/pliki/Zadania z Javy.txt\" />\r\n        <option value=\"$PROJECT_DIR$/pliki/cars.txt\" />\r\n        <option value=\"$PROJECT_DIR$/src/pi/Program.java\" />\r\n        <option value=\"$PROJECT_DIR$/src/tablica/zadanie7.java\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectFrameBounds\">\r\n    <option name=\"x\" value=\"611\" />\r\n    <option name=\"y\" value=\"65\" />\r\n    <option name=\"width\" value=\"1210\" />\r\n    <option name=\"height\" value=\"979\" />\r\n  </component>\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"2\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectView\">\r\n    <navigator proportions=\"\" version=\"1\">\r\n      <foldersAlwaysOnTop value=\"true\" />\r\n    </navigator>\r\n    <panes>\r\n      <pane id=\"Course\" />\r\n      <pane id=\"PackagesPane\" />\r\n      <pane id=\"Scope\" />\r\n      <pane id=\"ProjectPane\">\r\n        <subPane>\r\n          <expand>\r\n            <path>\r\n              <item name=\"JavaPol96a\" type=\"b2602c69:ProjectViewProjectNode\" />\r\n              <item name=\"JavaPol96a\" type=\"462c0819:PsiDirectoryNode\" />\r\n            </path>\r\n            <path>\r\n              <item name=\"JavaPol96a\" type=\"b2602c69:ProjectViewProjectNode\" />\r\n              <item name=\"JavaPol96a\" type=\"462c0819:PsiDirectoryNode\" />\r\n              <item name=\"pliki\" type=\"462c0819:PsiDirectoryNode\" />\r\n            </path>\r\n            <path>\r\n              <item name=\"JavaPol96a\" type=\"b2602c69:ProjectViewProjectNode\" />\r\n              <item name=\"JavaPol96a\" type=\"462c0819:PsiDirectoryNode\" />\r\n              <item name=\"przemekO\" type=\"462c0819:PsiDirectoryNode\" />\r\n            </path>\r\n            <path>\r\n              <item name=\"JavaPol96a\" type=\"b2602c69:ProjectViewProjectNode\" />\r\n              <item name=\"JavaPol96a\" type=\"462c0819:PsiDirectoryNode\" />\r\n              <item name=\"src\" type=\"462c0819:PsiDirectoryNode\" />\r\n            </path>\r\n            <path>\r\n              <item name=\"JavaPol96a\" type=\"b2602c69:ProjectViewProjectNode\" />\r\n              <item name=\"JavaPol96a\" type=\"462c0819:PsiDirectoryNode\" />\r\n              <item name=\"src\" type=\"462c0819:PsiDirectoryNode\" />\r\n              <item name=\"cars\" type=\"462c0819:PsiDirectoryNode\" />\r\n            </path>\r\n            <path>\r\n              <item name=\"JavaPol96a\" type=\"b2602c69:ProjectViewProjectNode\" />\r\n              <item name=\"JavaPol96a\" type=\"462c0819:PsiDirectoryNode\" />\r\n              <item name=\"src\" type=\"462c0819:PsiDirectoryNode\" />\r\n              <item name=\"liczbydoskonale\" type=\"462c0819:PsiDirectoryNode\" />\r\n            </path>\r\n            <path>\r\n              <item name=\"JavaPol96a\" type=\"b2602c69:ProjectViewProjectNode\" />\r\n              <item name=\"JavaPol96a\" type=\"462c0819:PsiDirectoryNode\" />\r\n              <item name=\"src\" type=\"462c0819:PsiDirectoryNode\" />\r\n              <item name=\"losowanie\" type=\"462c0819:PsiDirectoryNode\" />\r\n            </path>\r\n          </expand>\r\n          <select />\r\n        </subPane>\r\n      </pane>\r\n    </panes>\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp\" value=\"1626887011095\" />\r\n  </component>\r\n  <component name=\"RunDashboard\">\r\n    <option name=\"ruleStates\">\r\n      <list>\r\n        <RuleState>\r\n          <option name=\"name\" value=\"ConfigurationTypeDashboardGroupingRule\" />\r\n        </RuleState>\r\n        <RuleState>\r\n          <option name=\"name\" value=\"StatusDashboardGroupingRule\" />\r\n        </RuleState>\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"zadanie7\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"tablica.zadanie7\" />\r\n      <module name=\"JavaPol96A\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"tablica.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.zadanie7\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SvnConfiguration\">\r\n    <configuration />\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"b5432be3-067a-46ed-9646-c95115eb2cbb\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1626707640503</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1626707640503</updated>\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"ToolWindowManager\">\r\n    <frame x=\"611\" y=\"65\" width=\"1210\" height=\"979\" extended-state=\"0\" />\r\n    <editor active=\"true\" />\r\n    <layout>\r\n      <window_info content_ui=\"combo\" id=\"Project\" order=\"0\" sideWeight=\"0.49919224\" visible=\"true\" weight=\"0.15826087\" />\r\n      <window_info id=\"Structure\" order=\"1\" side_tool=\"true\" weight=\"0.25\" />\r\n      <window_info id=\"Image Layers\" order=\"2\" />\r\n      <window_info id=\"Designer\" order=\"3\" />\r\n      <window_info id=\"UI Designer\" order=\"4\" />\r\n      <window_info id=\"Capture Tool\" order=\"5\" />\r\n      <window_info id=\"Favorites\" order=\"6\" side_tool=\"true\" />\r\n      <window_info anchor=\"bottom\" id=\"Message\" order=\"0\" />\r\n      <window_info anchor=\"bottom\" id=\"Find\" order=\"1\" />\r\n      <window_info active=\"true\" anchor=\"bottom\" id=\"Run\" order=\"2\" visible=\"true\" weight=\"0.24235006\" />\r\n      <window_info anchor=\"bottom\" id=\"Debug\" order=\"3\" weight=\"0.22766218\" />\r\n      <window_info anchor=\"bottom\" id=\"Cvs\" order=\"4\" weight=\"0.25\" />\r\n      <window_info anchor=\"bottom\" id=\"Inspection\" order=\"5\" weight=\"0.4\" />\r\n      <window_info anchor=\"bottom\" id=\"TODO\" order=\"6\" />\r\n      <window_info anchor=\"bottom\" id=\"Version Control\" order=\"7\" />\r\n      <window_info anchor=\"bottom\" id=\"Educational.CheckDetails\" order=\"8\" />\r\n      <window_info anchor=\"bottom\" id=\"Terminal\" order=\"9\" />\r\n      <window_info anchor=\"bottom\" id=\"Event Log\" order=\"10\" side_tool=\"true\" />\r\n      <window_info anchor=\"bottom\" id=\"Messages\" order=\"11\" weight=\"0.32925338\" />\r\n      <window_info anchor=\"right\" id=\"Commander\" internal_type=\"SLIDING\" order=\"0\" type=\"SLIDING\" weight=\"0.4\" />\r\n      <window_info anchor=\"right\" id=\"Ant Build\" order=\"1\" weight=\"0.25\" />\r\n      <window_info anchor=\"right\" content_ui=\"combo\" id=\"Hierarchy\" order=\"2\" weight=\"0.25\" />\r\n      <window_info anchor=\"right\" id=\"Palette\" order=\"3\" />\r\n      <window_info anchor=\"right\" id=\"Codota\" order=\"4\" />\r\n      <window_info anchor=\"right\" id=\"Maven\" order=\"5\" />\r\n      <window_info anchor=\"right\" id=\"Theme Preview\" order=\"6\" />\r\n      <window_info anchor=\"right\" id=\"Capture Analysis\" order=\"7\" />\r\n      <window_info anchor=\"right\" id=\"Palette&#9;\" order=\"8\" />\r\n    </layout>\r\n  </component>\r\n  <component name=\"XDebuggerManager\">\r\n    <breakpoint-manager>\r\n      <breakpoints>\r\n        <line-breakpoint enabled=\"true\" type=\"java-line\">\r\n          <url>file://$PROJECT_DIR$/src/tablica/zadanie7.java</url>\r\n          <line>27</line>\r\n          <properties />\r\n          <option name=\"timeStamp\" value=\"1\" />\r\n        </line-breakpoint>\r\n      </breakpoints>\r\n    </breakpoint-manager>\r\n  </component>\r\n  <component name=\"editorHistoryManager\">\r\n    <entry file=\"file://$PROJECT_DIR$/pliki/plik1.txt\" />\r\n    <entry file=\"file://$PROJECT_DIR$/src/odsetki/Program.java\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"110\">\r\n          <caret line=\"5\" column=\"2\" selection-start-line=\"5\" selection-start-column=\"2\" selection-end-line=\"5\" selection-end-column=\"2\" />\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/src/cars/Car.java\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"264\">\r\n          <caret line=\"12\" selection-start-line=\"12\" selection-end-line=\"12\" />\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/pliki/Polecenia GIT-a.txt\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\" />\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/pliki/zadanie z GIT-a.txt\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\" />\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/pliki/cars.txt\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"198\">\r\n          <caret line=\"9\" column=\"10\" selection-start-line=\"9\" selection-start-column=\"10\" selection-end-line=\"9\" selection-end-column=\"10\" />\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/src/pi/Program.java\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"374\">\r\n          <caret line=\"17\" selection-start-line=\"17\" selection-end-line=\"17\" />\r\n          <folding>\r\n            <element signature=\"imports\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/src/losowanie/Program.java\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"718\">\r\n          <caret line=\"34\" column=\"35\" selection-start-line=\"34\" selection-start-column=\"35\" selection-end-line=\"34\" selection-end-column=\"35\" />\r\n          <folding>\r\n            <element signature=\"imports\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/pliki/Zadania z Javy.txt\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"352\">\r\n          <caret line=\"31\" column=\"33\" selection-start-line=\"31\" selection-start-column=\"33\" selection-end-line=\"31\" selection-end-column=\"33\" />\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/src/tablica/zadanie7.java\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"176\">\r\n          <caret line=\"20\" column=\"21\" lean-forward=\"true\" selection-end-line=\"46\" selection-end-column=\"1\" />\r\n          <folding>\r\n            <element signature=\"imports\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 0ade1342691a98833444523c012e98d1b806d459)
++++ b/.idea/workspace.xml	(date 1626888668747)
+@@ -1,100 +1,17 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="b5432be3-067a-46ed-9646-c95115eb2cbb" name="Default Changelist" comment="" />
+-    <ignored path="C:\Users\48605\workspace\JavaPol96a\.idea\shelf/" />
+-    <ignored path="$PROJECT_DIR$/out/" />
+-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
++    <list default="true" id="b5432be3-067a-46ed-9646-c95115eb2cbb" name="Default Changelist" comment="">
++      <change afterPath="$PROJECT_DIR$/src/sumacyfr/sumaCyfr.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/src/tablice/Zadanie7.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_07_2021__01_36__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_21_07_2021__01_36__Default_Changelist_.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+     <option name="LAST_RESOLUTION" value="IGNORE" />
+-  </component>
+-  <component name="FileEditorManager">
+-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+-      <file pinned="false" current-in-tab="false">
+-        <entry file="file://$PROJECT_DIR$/src/odsetki/Program.java">
+-          <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="110">
+-              <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+-            </state>
+-          </provider>
+-        </entry>
+-      </file>
+-      <file pinned="false" current-in-tab="false">
+-        <entry file="file://$PROJECT_DIR$/src/pi/Program.java">
+-          <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="374">
+-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+-              <folding>
+-                <element signature="imports" expanded="true" />
+-              </folding>
+-            </state>
+-          </provider>
+-        </entry>
+-      </file>
+-      <file pinned="false" current-in-tab="false">
+-        <entry file="file://$PROJECT_DIR$/src/losowanie/Program.java">
+-          <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="718">
+-              <caret line="34" column="35" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+-              <folding>
+-                <element signature="imports" expanded="true" />
+-              </folding>
+-            </state>
+-          </provider>
+-        </entry>
+-      </file>
+-      <file pinned="false" current-in-tab="false">
+-        <entry file="file://$PROJECT_DIR$/pliki/Zadania z Javy.txt">
+-          <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="352">
+-              <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+-            </state>
+-          </provider>
+-        </entry>
+-      </file>
+-      <file pinned="false" current-in-tab="true">
+-        <entry file="file://$PROJECT_DIR$/src/tablica/zadanie7.java">
+-          <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="176">
+-              <caret line="20" column="21" lean-forward="true" selection-end-line="46" selection-end-column="1" />
+-              <folding>
+-                <element signature="imports" expanded="true" />
+-              </folding>
+-            </state>
+-          </provider>
+-        </entry>
+-      </file>
+-      <file pinned="false" current-in-tab="false">
+-        <entry file="file://$PROJECT_DIR$/src/cars/Car.java">
+-          <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="264">
+-              <caret line="12" selection-start-line="12" selection-end-line="12" />
+-            </state>
+-          </provider>
+-        </entry>
+-      </file>
+-      <file pinned="false" current-in-tab="false">
+-        <entry file="file://$PROJECT_DIR$/pliki/cars.txt">
+-          <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="198">
+-              <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+-            </state>
+-          </provider>
+-        </entry>
+-      </file>
+-      <file pinned="false" current-in-tab="false">
+-        <entry file="file://$PROJECT_DIR$/pliki/Polecenia GIT-a.txt">
+-          <provider selected="true" editor-type-id="text-editor" />
+-        </entry>
+-      </file>
+-      <file pinned="false" current-in-tab="false">
+-        <entry file="file://$PROJECT_DIR$/pliki/zadanie z GIT-a.txt">
+-          <provider selected="true" editor-type-id="text-editor" />
+-        </entry>
+-      </file>
+-    </leaf>
+   </component>
+   <component name="FileTemplateManagerImpl">
+     <option name="RECENT_TEMPLATES">
+@@ -183,18 +100,6 @@
+   <component name="PropertiesComponent">
+     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1626887011095" />
+   </component>
+-  <component name="RunDashboard">
+-    <option name="ruleStates">
+-      <list>
+-        <RuleState>
+-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+-        </RuleState>
+-        <RuleState>
+-          <option name="name" value="StatusDashboardGroupingRule" />
+-        </RuleState>
+-      </list>
+-    </option>
+-  </component>
+   <component name="RunManager">
+     <configuration name="zadanie7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+       <option name="MAIN_CLASS_NAME" value="tablica.zadanie7" />
+@@ -262,13 +167,15 @@
+       <window_info anchor="right" id="Palette&#9;" order="8" />
+     </layout>
+   </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="oldMeFiltersMigrated" value="true" />
++  </component>
+   <component name="XDebuggerManager">
+     <breakpoint-manager>
+       <breakpoints>
+         <line-breakpoint enabled="true" type="java-line">
+           <url>file://$PROJECT_DIR$/src/tablica/zadanie7.java</url>
+           <line>27</line>
+-          <properties />
+           <option name="timeStamp" value="1" />
+         </line-breakpoint>
+       </breakpoints>
+Index: src/tablice/Zadanie7.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/tablice/Zadanie7.java b/src/tablice/Zadanie7.java
+new file mode 100644
+--- /dev/null	(date 1626887797121)
++++ b/src/tablice/Zadanie7.java	(date 1626887797121)
+@@ -0,0 +1,45 @@
++package tablice;
++/*Zadanie 7
++    Utwórz tablicę T zawierającą n losowych liczb całkowitych z przedziału 1...m. Znajdź długość najdłuższego
++    ciągu takich samych wartości.
++    Znajdź długość najdłuższego ciągu wartości większych niż średnia arytmetyczna liczb z tablicy T.*/
++
++import java.time.LocalDateTime;
++import java.util.Random;
++import java.util.Scanner;
++
++public class Zadanie7 {
++    public static void main(String[] args) {
++        Scanner scanner = new Scanner(System.in);
++        System.out.println("Podaj liczbę całkowitą");
++        int n = scanner.nextInt();
++        int[] tab1 = new int[n];
++        System.out.println("Podaj granicę przedziału");
++        int m = scanner.nextInt();
++        Random random = new Random(System.currentTimeMillis());
++        for (int i = 0; i < n; i++) {
++            tab1[i] = random.nextInt(m);
++            System.out.print(tab1[i] + " ");
++        }
++        int wartosc = tab1[0];
++        int dlugosc = 0;
++        int max = 1;
++        System.out.println();
++        for (int i = 1; i < n; i++) {
++            if (tab1[i] == wartosc) {
++                dlugosc++;
++            } else {
++                if (dlugosc > max) {
++                    max = dlugosc;
++                }
++                    wartosc = tab1[i];
++                    dlugosc = 1;
++                }
++            }
++        }
++        if( dlugosc> max){
++            max = dlugosc;
++        }
++        System.out.println(max);
++    }
++}
