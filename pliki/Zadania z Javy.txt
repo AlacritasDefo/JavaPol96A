@@ -21,3 +21,39 @@ Zadanie 6
 	UE w 2021 roku wytworzy PKB = 16 bln EUR. Wytworzy także CO2 równe PKB * 0,01 kg. Ponoć w 2040 roku emisja CO2 w UE ma być mniejsza o 55%. UE zamierza również rosnąć gospodarczo w kategorii PKB o 3% rocznie. 
 	Pytanie 1: ile wyniesie PKB UE w 2040 roku w bilionach EUR. I ile to będzie emisji CO2 bez redukcji emisji. 
 	Pytanie 2: ile UE będzie emitowało CO2 z redukcją emisji o 55%.
+
+Zadanie 7
+    Utwórz tablicę T zawierającą n losowych liczb całkowitych z przedziału 1...m. Znajdź długość najdłuższego
+    ciągu takich samych wartości.
+    Znajdź długość najdłuższego ciągu wartości większych niż średnia arytmetyczna liczb z tablicy T.
+
+
+Zadanie 8
+    Dla każdej liczby z przedziału od 100 do 999 znajdź wszystkie liczby bliźniacze.
+    Za liczbę bliźniaczą rozumiemy tu liczbę składającą się z takich samych cyfr.
+    Znajdź wszystkie liczby o takiej samej sumie podzielników całkowitych.
+
+
+Zadanie 9
+    Wyświetlacz czasu składa się z 3 części: G (godziny), M (minuty) oraz S (sekundy).
+    G = 0...23, M = 0...59, S = 0...59. Napisz program, który wczytuje G,M,S oraz p,
+    gdzie p to przesunięcie czasowe w sekundach. Zadaniem programu jest wyliczyć i
+    wyświetlić właściwy czas po przesunięciu o p sekund. Np. dla G = 7, M = 58 i S = 50,
+    p = 135 program ma zwrócić G = 8, M = 1, S = 5.
+
+Zadanie 10
+    Wczytaj liczbę rzeczywistą W (liczba większa od zera i mniejsza od 1).
+    Znajdź ułamek o mianowniku mniejszym od 100 000, który jest najmniej odległy od W.
+
+Zadanie 11
+    Znajdź pierwsze n liczb taksówkowych. Liczba taksówkowa x to liczba, która jest
+    sumą sześcianów dwóch liczb całkowitych na dwa sposoby (np. x = 1729 = 12^3 + 1^3
+    oraz 9^3 + 10^3).
+
+Zadanie 12
+    John Smith zna przyszłość więc postanowił wykorzystać to znając ją.
+    Ma do wyboru 3 strategie
+    - W pierszym roku może pomnożyć zainwestowaną kwotę 100 razy i w każdym następnym roku o połowę mniej (50 razy, 25 razy, 12 razy, 6 razy, 3 razy, 1 raz,...)
+    - W każdym kolejnym roku zainwestowana kwota rośnie o 2 razy
+    - W pierwszym roku kwota rośnie o 10 % i w każdym następnym roku przyrost kwoty zwiększa się o 10 %.
+    Podaj, która strategia jest najlepsza po N latach
