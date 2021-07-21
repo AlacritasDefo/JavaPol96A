@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5432be3-067a-46ed-9646-c95115eb2cbb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/sumaCyfr/sumaCyfr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sumacyfr/sumaCyfr.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,6 +104,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1626887011095" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RunManager" selected="Application.sumaCyfr">
     <configuration name="sumaCyfr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
