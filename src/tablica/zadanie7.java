@@ -35,7 +35,7 @@ public class zadanie7 {
                 }
                     wartosc = tab1[i];
                     dlugosc = 1;
-                }
+            }
         }
         if (dlugosc > max) {
             max = dlugosc;

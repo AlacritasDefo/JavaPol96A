@@ -18,6 +18,7 @@ git branch -d nazwa
 git checkout hash
 git checkout nazwa-ga³êzi
 git merge nazwa-ga³êzi
+git cherry-pick
 
 i inne polecenia:
 git tag

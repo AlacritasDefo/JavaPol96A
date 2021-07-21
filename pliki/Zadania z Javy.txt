@@ -57,3 +57,14 @@ Zadanie 12
     - W każdym kolejnym roku zainwestowana kwota rośnie o 2 razy
     - W pierwszym roku kwota rośnie o 10 % i w każdym następnym roku przyrost kwoty zwiększa się o 10 %.
     Podaj, która strategia jest najlepsza po N latach
+
+Zadanie 13
+   Na planecie "ta KapUS" zwanej również KapUS-ta żyją Kapuścianie i ich wyświetlacz
+    czasu składa się z 4 części:
+  - gumby (doba składa się z 21 gumb, 1 gumba = 3 qumby)
+  - qumby (1 qumba = 17 mumb)
+  - mumby (1 mumba = 71 sumb)
+  - sumby (1 sumba = 1 ziemskiej sekundzie)
+  Napisz klasę, w której przy pomocy konstruktora (god, min, sek) i metody KapUSTime() wyświetlany jest właściwy dla Kapuścian czas.
+  np. dla 19:50:20 mamy 71420 sumb = 1005 mumb i 65 sekund = 59 qumb i 2 mumby i 65 sekund = 19 gumb i 2 qumby i 2 mumby i 65 sekund = 19:02:02:65
+  Dodaj metodę, która oblicza ile sekund zostało do północy na planecie kapUS-ta

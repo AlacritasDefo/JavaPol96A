@@ -1,6 +1,7 @@
+package opakowanialekow;
 import java.util.*;
 
-public class opakowania {
+public class Opakowania {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int L1 = 0;
