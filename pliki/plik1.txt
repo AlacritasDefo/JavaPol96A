@@ -1,8 +1,0 @@
-Zadanie 1:
-	Wstawić tagi dla wszystkich migawek/rewizji
-Zadanie 3:
-	Utworzyć gałąź 'zadania'
-	Utworzyć kilka migawek dla gałęzi 'zadania'
-	Scalić gałąź 'zadania' z gałęzią 'master'
-	Usunąć gałąź 'zadania' (nie jest już potrzebna)
-	
