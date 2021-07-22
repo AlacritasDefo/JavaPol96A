@@ -19,6 +19,7 @@ public class Display {
     public int getSeconds(){
         return seconds;
     }
+
     public void plusSeconds (int addSeconds){
         seconds += addSeconds;
         if (seconds < 60)
@@ -33,8 +34,48 @@ public class Display {
         hours += addHours;
         hours = hours % 24;
     }
+    public void plusMinutes(int addMinutes) {
+        minutes += addMinutes;
+        if(minutes < 60)
+            return;
+        int addHours = minutes/60;
+        minutes = minutes % 60;
+        hours += addHours;
+        hours = hours % 24;
+    }
+    public void plusHours(int addHours) {
+        hours += addHours;
+        hours = hours % 24;
+    }
+    public void minusSeconds(int minusSeconds) {
+        seconds -= minusSeconds;
+        if (seconds >=0)
+            return;
+        int minusMinutes = -seconds / 60;
+        minutes -= minusMinutes + 1;
+        seconds = seconds % 60 + 60;
+        if (minutes >=0)
+            return;
+        minutes = minutes % 60 + 60;
+        int minusHours = minutes/60;
+        hours -= minusHours + 1;
+        hours = (hours + 24000) % 24;
+    }
     @Override
     public String toString(){
-        return hours + ":" + minutes + ":" + seconds;
+        String time = "";
+        if (hours > 9)
+            time += hours;
+        else
+            time += "0" + hours;
+        if (minutes > 9)
+            time += ":" + minutes;
+        else
+            time += ":0" + minutes;
+        if (seconds > 9)
+            time += ":" + seconds;
+        else
+            time += ":0" + seconds;
+        return time;
     }
 }
