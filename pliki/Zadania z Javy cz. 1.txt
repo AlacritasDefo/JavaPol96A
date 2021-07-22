@@ -68,3 +68,15 @@ Zadanie 13
   Napisz klasę, w której przy pomocy konstruktora (god, min, sek) i metody KapUSTime() wyświetlany jest właściwy dla Kapuścian czas.
   np. dla 19:50:20 mamy 71420 sumb = 1005 mumb i 65 sekund = 59 qumb i 2 mumby i 65 sekund = 19 gumb i 2 qumby i 2 mumby i 65 sekund = 19:02:02:65
   Dodaj metodę, która oblicza ile sekund zostało do północy na planecie kapUS-ta
+
+Zadanie 14
+    Gra w wojnę: Dla dwóch graczy program rozdaje po 26 kart. W tablicy G1 i w tablicy G2
+    znajdą się liczby od 1 do 52 (wartość karty). Następnie obaj gracze podają swoją kartę
+    a program ustala, który z graczy wygrał potyczkę. Po stoczeniu 26 potyczek program
+    podaje wynik wojny np. 14:12
+    Należy zmodyfikować program, że dla gracza 1 jeśli miałby on wygrać potyczkę, to
+    program sprawdza czy gdyby zamienił obecną kartę z następną to jeśli ta kolejna karta
+    jest mniejsza od obecnej ale gracz 1 i tak by wygrał potyczkę, to program zamienia
+    obecną kartę z kolejną. Należy zobaczyć jak zmieni się wynik wojny.\
+
+Zadanie
